@@ -1,4 +1,4 @@
-class test {
+class Libary {
 constructor(){
     this.card=[];
     this.books=[{
@@ -216,10 +216,5 @@ this.books.filter((book,index)=>{
  }
 
 }
-var testt=new test();
-testt.addBooks('bilal','kurdestan','#','kurdi','link',123,'22',321);
-testt.deletBooKs("Poems");
-testt.searchForBooks("The Stranger","Albert Camus")
-testt.listofbooks()
-testt.addtocard("The Stranger");
-testt.sumofthepages()
+var testClass=new Libary();
+
